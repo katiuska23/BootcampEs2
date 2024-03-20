@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Pseint pseudocode blog</title>
+        <<link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="container">
+            <div id="cabecera">
+                PseInt Hiperblog
+                <span id="tagline">Tu blog de Pseudocodigos</span>
+            </div>
+            <div id="post">
+                <h1>Pseint pseudocode blog</h1>
+                <p>Creacion de un algoritmo que calcule la suma de los números pares desde 1 
+                    hasta un número dado por consola. </p> <br>
+                <p2>
+                    Funcion suma <- SumaPares (inicio,end) <br>
+                    Definir sumapar, sumaimpar Como Entero <br>
+                    sumapar <- 0 <br>
+                    Mientras inicio<=end Hacer <br>
+                        Si inicio MOD 2==0 Entonces <br>
+                            sumapar <- sumapar+inicio <br>
+                            inicio <- inicio+1 <br>
+                        SiNo <br>
+                            sumaimpar <- sumaimpar+inicio <br>
+                            inicio <- inicio+1 <br>
+                        FinSi <br>
+                    FinMientras <br>
+                    Escribir 'El resultado de la suma de los numeros pares es :', sumapar <br>
+                FinFuncion <br>
+                
+                Algoritmo resultado <br>
+                    Definir inicio Como Entero <br>
+                    Definir end Como Entero <br>
+                    Escribir 'Programa que calcula la suma de los numeros pares del 1 al n' <br>
+                    Escribir 'Ingresa un numero :', n <br>
+                    Leer n <br>
+                    suma <- 0 <br>
+                    inicio <- 1 <br>
+                    end <- n <br>
+                    suma <- SumaPares(1,end) <br>
+                FinAlgoritmo <br>
